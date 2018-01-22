@@ -4,7 +4,7 @@ shuni_apps:
   hostname: shuni_apps
   volumes:
    - ./docker_apps/var/apps:/var/apps:ro
-   -./docker_apps/var/log:/var/log/apps:rw
+   - ./docker_apps/var/log:/var/log/apps:rw
 
    #docker run -itd --name shuni_apps     -v /root/docker-apps/var/apps/graphapi:/var/apps/graphapi:ro     uzzal2k5/shuni_apps
    #command: git clone https://uzzal2k5@gitlab.com/docker_project/shuni_app.git
