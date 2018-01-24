@@ -20,7 +20,7 @@ RUN chmod a+x /requirements.txt
 RUN pip3 install -r /requirements.txt
 RUN pip3 install mysqlclient
 #RUN pip3 install mysql-connector
-
+RUN mkdir -p /var/log/apps
 RUN ln -sf /dev/stdout /var/log/apps/access.log \
 	&& ln -sf /dev/stderr /var/log/apps/error.log
 RUN mkdir /var/apps
