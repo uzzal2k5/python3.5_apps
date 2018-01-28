@@ -26,7 +26,4 @@ RUN ln -sf /dev/stdout /var/log/apps/access.log \
 RUN mkdir /var/apps
 
 RUN ln -sf /usr/bin/python3    /usr/bin/python
-COPY cron/apps_cron /
-RUN chmod +x /apps_cron
-RUN sh /apps_cron
 
