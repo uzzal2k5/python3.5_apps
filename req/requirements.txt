@@ -24,3 +24,4 @@ scipy==0.19.1
 selenium==3.4.3
 tensorflow==1.15.2
 urllib3==1.22
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
