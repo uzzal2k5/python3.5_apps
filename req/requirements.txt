@@ -13,7 +13,7 @@ numexpr==2.6.2
 numpy==1.14.0
 pandas==0.18.0
 pickleshare==0.7.4
-prompt-toolkit==1.0.14
+prompt-toolkit==3.0.13
 protobuf==3.4.0
 python-crontab==2.2.4
 requests==2.18.4
