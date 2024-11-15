@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 # Final Image that are build to deploy shuni.tel
 MAINTAINER uzzal,< uzzal2k5@gmail.com >
 
